@@ -8,6 +8,28 @@
     <title>Converter</title>
 </head>
 <body>
+    <h1>Temperature Converter</h1>
+    <div class="container">
+       <form>
+        <label for="insert-number"></label>
+        <input type="number" id="insert-number" name="insert-number" placeholder="0">
+        <label for="degrees-from"></label>
+        <select id="degrees-from" name="degrees-from">
+            <option value="Celsius">Celsius</option>
+            <option value="Fahrenheit">Fahrenheit</option>
+            <option value="Kelvin">Kelvin</option>
+        </select>
+        <label for="result"></label>
+        <input type="number" id="result" name="result" placeholder="0">
+        <label for="degrees-to"></label>
+        <select id="degrees-to" name="degrees-to">
+            <option value="Celsius">Celsius</option>
+            <option value="Fahrenheit">Fahrenheit</option>
+            <option value="Kelvin">Kelvin</option>
+        </select>
+        <button id="convert" aria-label="Submit the form and convert the value inserted">Convert!</button>
+       </form>
+    </div>
 <script src="assets/script/script.js"></script> 
 </body>
 </html>

@@ -15,6 +15,7 @@
     <h1>Temperature Converter</h1>
     <div class="container">
        <form>
+        <div id="top-row">
         <label for="insert-number"></label>
         <input type="number" id="insert-number" name="insert-number" placeholder="0">
         <label for="degrees-from"></label>
@@ -23,6 +24,8 @@
             <option value="Fahrenheit">Fahrenheit</option>
             <option value="Kelvin">Kelvin</option>
         </select>
+        </div>
+        <div id="middle-row">
         <label for="result"></label>
         <input type="number" id="result" name="result" placeholder="0">
         <label for="degrees-to"></label>
@@ -31,7 +34,10 @@
             <option value="Fahrenheit">Fahrenheit</option>
             <option value="Kelvin">Kelvin</option>
         </select>
+        </div>
+        <div id="third-row">
         <button id="convert" aria-label="Submit the form and convert the value inserted">Convert!</button>
+        </div>
        </form>
     </div>
 <script src="assets/script/script.js"></script> 

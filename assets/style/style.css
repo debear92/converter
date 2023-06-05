@@ -35,11 +35,12 @@ input, select {
     padding-top: 1rem;
 }
 
-#convert {
+button {
     font-size: 1.5rem;
     padding: 0.75rem;
     border: solid 0.1rem #9D4D92;
     border-radius: 0.5rem;
     color: #9A437C;
     background-color: #7982ec5e;
+    margin: 1rem;
 }
